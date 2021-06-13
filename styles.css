@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    background-color: hsl(0, 0%, 90%);
+    font-family: 'Commissioner', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+    padding-bottom: 10rem;
+}
+h3{
+    font-weight: 700;
+}
+p{
+    color: hsl(0, 0%, 45%);;
+}
+.header{
+    display: flex;
+    background-color: violet;
+    justify-content: space-between;
+    max-width: 100vw;
+    overflow: hidden;
+    align-items: flex-start;
+    height: 45vh;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    background-image: url("images/image-hero-desktop.jpg");
+}
+.sub-section{
+    color: white;
+    gap: 5rem;
+    margin-right: 10rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: -2.5rem;
+}
+.card-one{
+    background-color: white;
+    text-align: center;
+    max-width: 3840px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.7rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.k{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+.h-button{
+    color: white;
+    display: inline-block;
+    height: 45px;
+    line-height: 40px;
+    width: 150px;
+    margin: 10px;
+    padding-left: 7px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(176, 72%, 28%);
+}
+.donnobang{
+    display: inline-block;
+    height: 45px;
+    line-height: 40px;
+    width: 150px;
+    margin: 10px;
+    padding-left: 7px;
+    border-radius: 50px;
+    border: none;
+}
+.card-two{
+    background-color: white;
+    max-width: 3840px;
+    width: 50%;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+    align-items: center;
+}
+.grid h3{
+    font-size: 45px;
+}
+.q{
+    margin-top: -2rem;
+}
+.s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    height: 50%;
+}
+.bar{
+    margin-top: 2rem;
+    width: 90%;
+    background-color: hsl(0, 0%, 90%);
+    height: .75rem;
+    border-radius: 0.7rem;
+}
+.progress{
+    width: 75%;
+    background-color: hsl(176, 72%, 28%);
+    height: 100%;
+    border-radius: 0.7rem;
+}
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    max-width: 3840px;
+    width: 50%;
+    border-radius: 0.7rem;
+    gap: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.cc{
+    width: 90%;
+    border-radius: .7rem;
+    border: 1px solid hsl(0, 0%, 80%);
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.deprecated{
+    color: hsl(0, 0%, 45%);
+}
+.deprecated button{
+    background-color: hsl(0, 0%, 80%);
+}
+.headds{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hh{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+span{
+    color: hsl(176, 72%, 28%);
+}
+.deprecated span{
+    color: hsl(176, 50%, 47%);
+}
+::-webkit-scrollbar{
+    display: none;
+}
+@media only screen and (max-width:712px){
+    .sub-section{
+        display: none;
+    }
+}
+@media only screen and (max-width:917px){
+    .card-one, .card-two,  .card-section{
+        width: 75%;
+    }
+}
+@media only screen and (max-width:668px){
+    .donnobang{
+        display: none;
+    }
+    .k{
+        justify-content: center;
+    }
+    .card-one, .card-two{
+        width: 75%;
+    }
+}
+@media only screen and (max-width:581px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    hr{
+       width: 50%;
+       height: 0px;
+    }
+}
